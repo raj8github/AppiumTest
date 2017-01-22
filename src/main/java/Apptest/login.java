@@ -24,7 +24,10 @@ public class login {
 		//Click on Submit button
 		driver.findElement(By.id("com.bt.bms:id/signin")).click();
 
-		//Close the app.
+		//Close any pop ups
+		driver.navigate().back();
+		
+		//Close the app
 		driver.quit();
 	}
 }
