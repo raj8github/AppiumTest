@@ -25,7 +25,7 @@ public class setDriver {
 		//Start the app
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 		
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		
 		return driver;
 	}
